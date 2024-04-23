@@ -12,6 +12,8 @@ const authRoutes = require("./routes/auth");
 const companiesRoutes = require("./routes/companies");
 const usersRoutes = require("./routes/users");
 const jobsRoutes = require("./routes/jobs");
+const { Client } = require("pg");
+
 
 const morgan = require("morgan");
 
